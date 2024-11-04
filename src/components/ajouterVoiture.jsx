@@ -35,7 +35,7 @@ const AjouterVoiture = ({ ajouterVoiture }) => {
         />
       </div>
       <div>
-        <label className="block text-sm font-semibold text-gray-900 dark:text-gray-100 dark:text-black">Marque</label>
+        <label className="block text-sm font-semibold text-gray-900  dark:text-black">Marque</label>
         <input
           name="Marque"
           placeholder="Ex: Renault, Peugeot, etc."
@@ -46,7 +46,7 @@ const AjouterVoiture = ({ ajouterVoiture }) => {
         />
       </div>
       <div>
-        <label className="block text-sm font-semibold text-gray-900 dark:text-gray-100 dark:text-black">Type de Carburant</label>
+        <label className="block text-sm font-semibold text-gray-900 dark:text-black">Type de Carburant</label>
         <select
           name="TypeCarburant"
           value={nouvelleVoiture.TypeCarburant}
